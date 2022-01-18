@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$ybp#k0guoetch_@*a_!5g+)%ewfonr(d3$uu4l6sdu(f5kf*n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -78,6 +78,8 @@ WSGI_APPLICATION = 'LKSCloudComputing.wsgi.application'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = BASE_DIR / 'media'
+
+
 
 
 # Database
@@ -135,6 +137,8 @@ STATICFILES_DIRS = (
 )
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
