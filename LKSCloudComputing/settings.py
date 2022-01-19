@@ -89,9 +89,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'LKSTraining',
-        'USER': 'admin',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
+        'USER': 'postgres',
+        'PASSWORD': '12345678',
+        'HOST': 'lkstraining.cfceesdtlkpj.ap-southeast-1.rds.amazonaws.com',
         'PORT': '5432'
     }
 }
